@@ -1,16 +1,20 @@
-## Hi there 👋
+#I'm a Computer Engeneering student interested in programming, software development, data analysis and technology.
 
-<!--
-**Snowstormme/Snowstormme** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Currently learning
 
-Here are some ideas to get you started:
+- Python
+- C++
+- Git & GitHub
+- SQL
+- Data Structures & Algorithms
+- Computer Science fundamentals
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+I'm currently building my first programming projects and learning how to develop software step by step.
+
+## Goals
+
+- Build real-world projects
+- Improve my programming skills
+- Build a strong GitHub portfolio
