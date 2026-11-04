@@ -1,4 +1,4 @@
-# Hi, I'm Snowstormme 👋
+# Hi, I'm Snowstorm 👋
 
 <p>
   <strong>Computer Engineering student · Product builder · Data-minded developer</strong><br>
@@ -25,6 +25,47 @@ follow players and build a personal tennis history.
   <tr>
     <td><strong>Reliability</strong><br>177 automated tests and PostgreSQL smoke checks</td>
     <td><strong>Operations</strong><br>Render deployment, encrypted backups and restore verification</td>
+  </tr>
+</table>
+
+## 🍿 Movie Fountain — Movie Finder
+
+An expressive movie-discovery interface that helps people find something to
+watch without endless scrolling.
+
+<p>
+  <a href="https://movie-fountain.pages.dev/"><img src="https://img.shields.io/badge/Live-Movie%20Fountain-c9a6d0?style=for-the-badge&logo=googlechrome&logoColor=111827" alt="Live Movie Fountain"></a>
+  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Code-Movie%20Finder-111827?style=for-the-badge&logo=github&logoColor=white" alt="Movie Finder source code"></a>
+</p>
+
+<table>
+  <tr>
+    <td><strong>Product</strong><br>Animated movie discovery, genres, moods, search, cast and recommendations</td>
+    <td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB API · JavaScript</td>
+  </tr>
+  <tr>
+    <td><strong>Personalisation</strong><br>Local watchlist, watched marks and JSON import/export</td>
+    <td><strong>Safety</strong><br>API credentials stay server-side and reduced-motion support is built in</td>
+  </tr>
+</table>
+
+## 🎓 Lotus Campus
+
+A calm campus platform for university students in Azerbaijan, bringing groups,
+courses, schedules, events, messaging and an AI study assistant into one place.
+
+<p>
+  <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Code-Lotus%20Campus-111827?style=for-the-badge&logo=github&logoColor=white" alt="Lotus source code"></a>
+</p>
+
+<table>
+  <tr>
+    <td><strong>Product</strong><br>University feed, groups, courses, schedules, events, deadlines and messaging</td>
+    <td><strong>Engineering</strong><br>HTML · CSS · JavaScript · Cloudflare Pages Functions</td>
+  </tr>
+  <tr>
+    <td><strong>Platform</strong><br>Supabase Auth, Postgres, Row Level Security and Storage</td>
+    <td><strong>Experience</strong><br>Onboarding, profiles, privacy settings and AI study assistance</td>
   </tr>
 </table>
 
@@ -68,6 +109,8 @@ follow players and build a personal tennis history.
 ## 📬 Find me
 
 <a href="https://github.com/Snowstormme">GitHub</a> ·
-<a href="https://tennisd.onrender.com/">Tennisd</a>
+<a href="https://tennisd.onrender.com/">Tennisd</a> ·
+<a href="https://movie-fountain.pages.dev/">Movie Fountain</a> ·
+<a href="https://github.com/Snowstormme/lotus">Lotus</a>
 
 <sub>Built carefully, shipped incrementally.</sub>
