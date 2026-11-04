@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Snowstormme · Contribution cockpit</title>
+  <style>
+    :root{color-scheme:dark;--bg:#07111f;--panel:#0f172a;--line:#263449;--text:#f8fafc;--muted:#94a3b8;--teal:#2dd4bf;--blue:#60a5fa}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#12384a 0,transparent 34rem),var(--bg);color:var(--text);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:32px}
+    main{max-width:1100px;margin:auto}.eyebrow{color:var(--teal);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px}h1{margin:6px 0;font-size:clamp(30px,5vw,52px);letter-spacing:-.04em}p{color:var(--muted)}.panel{background:rgba(15,23,42,.88);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 20px 70px #02061755}.meta{display:flex;gap:10px;flex-wrap:wrap}.chip{border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:#cbd5e1;font-size:12px}.grid-wrap{overflow:auto;margin-top:22px}.grid{display:grid;grid-template-columns:repeat(53,14px);grid-template-rows:repeat(7,14px);grid-auto-flow:column;gap:4px;min-width:930px;padding:16px 0}.cell{width:14px;height:14px;border:0;border-radius:4px;background:#172033;cursor:help;position:relative}.cell[data-level="1"]{background:#164e63}.cell[data-level="2"]{background:#0f766e}.cell[data-level="3"]{background:#14b8a6}.cell[data-level="4"]{background:#67e8f9}.cell:focus-visible,.cell:hover{outline:2px solid #fff;outline-offset:2px}.tooltip{position:fixed;z-index:3;pointer-events:none;display:none;background:#020617;color:#fff;border:1px solid #334155;border-radius:10px;padding:10px 12px;box-shadow:0 12px 32px #0008;min-width:190px}.tooltip strong{display:block}.legend{display:flex;align-items:center;gap:5px;color:var(--muted);font-size:12px;justify-content:flex-end}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px}.repos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:24px}.repo{border:1px solid var(--line);border-radius:15px;padding:16px;background:#0b1424}.repo a{color:#fff;text-decoration:none;font-weight:700}.repo a:hover{text-decoration:underline}.repo .version{color:var(--teal);font-size:24px;font-weight:750;margin-top:4px}.repo small{color:var(--muted)}footer{color:#64748b;margin-top:18px;font-size:12px}@media(max-width:600px){body{padding:18px}.panel{padding:17px}}
+  </style>
+</head>
+<body>
+<main>
+  <section class="panel">
+    <div class="eyebrow">Snowstormme · live project activity</div>
+    <h1>Contribution cockpit</h1>
+    <p id="summary">Loading real commit activity…</p>
+    <div class="meta"><span class="chip">Tennisd</span><span class="chip">Movie Finder</span><span class="chip">Lotus</span><span class="chip">Hover any cell for details</span></div>
+    <div class="grid-wrap"><div id="grid" class="grid" aria-label="Contribution graph"></div></div>
+    <div class="legend">Less <i style="background:#172033"></i><i style="background:#164e63"></i><i style="background:#0f766e"></i><i style="background:#14b8a6"></i><i style="background:#67e8f9"></i> More</div>
+    <div id="repos" class="repos"></div>
+  </section>
+  <footer>Generated from repository commit history. Source repositories are read-only inputs; this dashboard is maintained in the profile repository.</footer>
+</main>
+<div id="tooltip" class="tooltip" role="status"></div>
+<script>
+  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  fetch('assets/activity-data.json').then(r => r.json()).then(data => {
+    const max = Math.max(0, ...Object.values(data.days).map(x => x.total));
+    const level = n => !n || !max ? 0 : n / max <= .25 ? 1 : n / max <= .5 ? 2 : n / max <= .75 ? 3 : 4;
+    document.querySelector('#summary').textContent = `${data.total_commits} commits from ${data.start} through ${data.end}. Hover a cell to inspect the day and project split.`;
+    const grid = document.querySelector('#grid'), tooltip = document.querySelector('#tooltip');
+    Object.entries(data.days).forEach(([day, info]) => {
+      const cell = document.createElement('button'); cell.className='cell'; cell.dataset.level=level(info.total); cell.setAttribute('aria-label', `${day}: ${info.total} commits`);
+      cell.addEventListener('mouseenter', e => { tooltip.innerHTML = `<strong>${esc(day)}</strong>${info.total} commit${info.total === 1 ? '' : 's'}<br>${Object.entries(info.repos).map(([name,n]) => `${esc(name)}: ${n}`).join('<br>') || 'No commits'};`; tooltip.style.display='block'; tooltip.style.left=`${Math.min(e.clientX+14, innerWidth-230)}px`; tooltip.style.top=`${Math.min(e.clientY+14, innerHeight-110)}px`; });
+      cell.addEventListener('mousemove', e => { tooltip.style.left=`${Math.min(e.clientX+14, innerWidth-230)}px`; tooltip.style.top=`${Math.min(e.clientY+14, innerHeight-110)}px`; });
+      cell.addEventListener('mouseleave', () => tooltip.style.display='none'); grid.append(cell);
+    });
+    document.querySelector('#repos').innerHTML = data.repositories.map(repo => `<article class="repo"><a href="${esc(repo.url)}">${esc(repo.name)}</a><div class="version">v${esc(repo.version)}</div><small>${repo.commits} commits in this window<br>Latest: ${esc(repo.latest.date || 'No recent commit')}</small></article>`).join('');
+  }).catch(() => { document.querySelector('#summary').textContent='Activity data is temporarily unavailable.'; });
+</script>
+</body>
+</html>

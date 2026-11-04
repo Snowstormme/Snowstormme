@@ -31,18 +31,18 @@ follow players and build a personal tennis history.
 ## 📊 Contribution cockpit
 
 <p>
-  This is a custom, repository-owned contribution visual. It is designed to be
-  updated from real GitHub activity by a scheduled workflow, instead of relying
-  on an opaque third-party statistics card.
+  Real daily commit activity from <strong>Tennisd</strong>, <strong>Movie Finder</strong>
+  and <strong>Lotus</strong>. Hover cells in the SVG for the date and project split,
+  or open the <a href="./activity.html">interactive dashboard</a> for a full tooltip view.
 </p>
 
-<img src="./assets/contribution-graph.svg" alt="Contribution graph preview" width="100%">
+<a href="./activity.html"><img src="./assets/contribution-graph.svg" alt="Contribution graph with daily commit counts" width="100%"></a>
 
 <table>
   <tr>
-    <td><strong>Build</strong><br>Commits, pull requests and releases</td>
-    <td><strong>Improve</strong><br>Issues, reviews and maintenance work</td>
-    <td><strong>Ship</strong><br>Milestones from real release history</td>
+    <td><strong>Build</strong><br>Daily commits across three projects</td>
+    <td><strong>Versions</strong><br>Current versions read from each repository</td>
+    <td><strong>Explore</strong><br>Open the interactive dashboard for tooltips</td>
   </tr>
 </table>
 
