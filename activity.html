@@ -31,12 +31,18 @@
     const level = n => !n || !max ? 0 : n / max <= .25 ? 1 : n / max <= .5 ? 2 : n / max <= .75 ? 3 : 4;
     document.querySelector('#summary').textContent = `${data.total_commits} commits from ${data.start} through ${data.end}. Hover a cell to inspect the day and project split.`;
     const grid = document.querySelector('#grid'), tooltip = document.querySelector('#tooltip');
-    Object.entries(data.days).forEach(([day, info]) => {
+    const start = new Date(`${data.start}T00:00:00Z`), end = new Date(`${data.end}T00:00:00Z`);
+    const first = new Date(start); first.setUTCDate(first.getUTCDate() - first.getUTCDay());
+    const cursor = new Date(first);
+    while (cursor <= end) {
+      const day = cursor.toISOString().slice(0, 10), info = data.days[day];
+      if (!info) { const spacer = document.createElement('span'); spacer.setAttribute('aria-hidden', 'true'); grid.append(spacer); cursor.setUTCDate(cursor.getUTCDate() + 1); continue; }
       const cell = document.createElement('button'); cell.className='cell'; cell.dataset.level=level(info.total); cell.setAttribute('aria-label', `${day}: ${info.total} commits`);
       cell.addEventListener('mouseenter', e => { tooltip.innerHTML = `<strong>${esc(day)}</strong>${info.total} commit${info.total === 1 ? '' : 's'}<br>${Object.entries(info.repos).map(([name,n]) => `${esc(name)}: ${n}`).join('<br>') || 'No commits'};`; tooltip.style.display='block'; tooltip.style.left=`${Math.min(e.clientX+14, innerWidth-230)}px`; tooltip.style.top=`${Math.min(e.clientY+14, innerHeight-110)}px`; });
       cell.addEventListener('mousemove', e => { tooltip.style.left=`${Math.min(e.clientX+14, innerWidth-230)}px`; tooltip.style.top=`${Math.min(e.clientY+14, innerHeight-110)}px`; });
       cell.addEventListener('mouseleave', () => tooltip.style.display='none'); grid.append(cell);
-    });
+      cursor.setUTCDate(cursor.getUTCDate() + 1);
+    }
     document.querySelector('#repos').innerHTML = data.repositories.map(repo => `<article class="repo"><a href="${esc(repo.url)}">${esc(repo.name)}</a><div class="version">v${esc(repo.version)}</div><small>${repo.commits} commits in this window<br>Latest: ${esc(repo.latest.date || 'No recent commit')}</small></article>`).join('');
   }).catch(() => { document.querySelector('#summary').textContent='Activity data is temporarily unavailable.'; });
 </script>
