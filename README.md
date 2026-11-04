@@ -33,10 +33,10 @@ follow players and build a personal tennis history.
 <p>
   Real daily commit activity from <strong>Tennisd</strong>, <strong>Movie Finder</strong>
   and <strong>Lotus</strong>. Hover cells in the SVG for the date and project split,
-  or open the <a href="./activity.html">interactive dashboard</a> for a full tooltip view.
+  or open the <a href="https://snowstormme.github.io/Snowstormme/activity.html">interactive dashboard</a> for a full tooltip view.
 </p>
 
-<a href="./activity.html"><img src="./assets/contribution-graph.svg" alt="Contribution graph with daily commit counts" width="100%"></a>
+<a href="https://snowstormme.github.io/Snowstormme/activity.html"><img src="./assets/contribution-graph.svg" alt="Contribution graph with daily commit counts" width="100%"></a>
 
 <table>
   <tr>
