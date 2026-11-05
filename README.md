@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/snowstorm-winter-banner.svg" alt="Snowstorm winter landscape with profile introduction" width="100%">
+  <img src="./assets/snowstorm-winter-banner.png" alt="Snowstorm winter landscape with profile introduction" width="100%">
 </p>
 
 <p align="center">
