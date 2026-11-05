@@ -20,8 +20,9 @@
     <circle cx="28" cy="11" r="4" fill="#f8d27b"/>
   </g>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
-    <text x="54" y="89" fill="#f8fafc" font-size="34" font-weight="750" letter-spacing="-.03em">Snowstorm</text>
-    <text x="57" y="119" fill="#f8e7b0" font-size="15" font-weight="650" letter-spacing=".08em">HOLIDAY EDITION · BUILD · SHIP · GROW</text>
-    <text x="57" y="148" fill="#d8e7de" font-size="13">A little winter glow for the projects behind the commits.</text>
+    <text x="54" y="72" fill="#f8fafc" font-size="31" font-weight="750" letter-spacing="-.03em">Hi, I'm Snowstorm 👋</text>
+    <text x="57" y="103" fill="#f8e7b0" font-size="14" font-weight="650">Computer Engineering student · Product builder · Data-minded developer</text>
+    <text x="57" y="132" fill="#d8e7de" font-size="12">I'm interested in programming, software development and data analysis.</text>
+    <text x="57" y="153" fill="#d8e7de" font-size="12">I turn messy data and ambitious ideas into useful, reliable software.</text>
   </g>
 </svg>

@@ -2,19 +2,9 @@
   <img src="./assets/christmas-banner.svg" alt="Snowstorm holiday edition" width="100%">
 </p>
 
-<table>
-  <tr>
-    <td width="62%">
-      <h1>Hi, I'm Snowstorm 👋</h1>
-      <p><strong>Computer Engineering student · Product builder · Data-minded developer</strong></p>
-      <p>I'm interested in programming, software development and data analysis. I turn messy data and ambitious ideas into useful, reliable software.</p>
-    </td>
-    <td width="38%" align="center">
-      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a><br>
-      <sub>SNOWSTORM STUDIO · build · ship · learn</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a>
