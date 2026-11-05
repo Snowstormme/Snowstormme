@@ -70,7 +70,7 @@ def build_svg(data: dict, output: Path) -> None:
     days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
     by_date = data["days"]
     maximum = max((row["total"] for row in by_date.values()), default=0)
-    colors = ["#172033", "#164e63", "#0f766e", "#14b8a6", "#67e8f9"]
+    colors = ["#17251f", "#1f513d", "#2f7a55", "#c28b2c", "#d34b5f"]
     width, height = 1180, 360
     left, top, cell, gap = 42, 126, 13, 4
     grid_x = left + 38
@@ -110,10 +110,10 @@ def build_svg(data: dict, output: Path) -> None:
             svg.append(f'<text x="{x}" y="{grid_y - 10}" fill="#64748b" font-family="sans-serif" font-size="10">{day.strftime("%b")}</text>')
             month_seen.add(month_key)
     legend_x = 1000
-    svg.append('<text x="34" y="309" fill="#94a3b8" font-family="sans-serif" font-size="11">Less</text>')
+    svg.append('<text x="34" y="309" fill="#b8c6bd" font-family="sans-serif" font-size="11">Less</text>')
     for index, color in enumerate(colors):
         svg.append(f'<rect x="{legend_x + index * 19}" y="299" width="12" height="12" rx="3" fill="{color}"/>')
-    svg.append('<text x="1100" y="309" fill="#94a3b8" font-family="sans-serif" font-size="11">More</text>')
+    svg.append('<text x="1100" y="309" fill="#b8c6bd" font-family="sans-serif" font-size="11">More</text>')
     svg.append('</svg>')
     output.write_text("\n".join(svg), encoding="utf-8")
 

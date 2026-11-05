@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+  <title id="title">Snowstorm holiday edition</title>
+  <desc id="desc">A calm winter banner with snow, evergreen branches, cranberry ornaments and warm lights.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071a18"/><stop offset=".55" stop-color="#123b32"/><stop offset="1" stop-color="#3b1e2a"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#edf7f1"/><stop offset="1" stop-color="#b7d1c4"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="210" rx="24" fill="url(#sky)"/>
+  <circle cx="1010" cy="48" r="28" fill="#f8e7b0" opacity=".85"/>
+  <path d="M0 173 C180 132 285 198 445 157 C625 110 758 176 920 140 C1060 110 1120 142 1200 121 V210 H0Z" fill="url(#hill)" opacity=".92"/>
+  <g fill="#e8f5ee" opacity=".9" font-family="sans-serif" font-size="18">
+    <text x="74" y="45">✦</text><text x="173" y="96">✧</text><text x="304" y="42">·</text><text x="420" y="83">✦</text><text x="590" y="37">·</text><text x="710" y="85">✧</text><text x="845" y="38">✦</text><text x="1110" y="94">·</text>
+  </g>
+  <g transform="translate(895 92)">
+    <path d="M0 72 L28 0 L56 72Z" fill="#174d3c"/><path d="M-13 70 L28 24 L69 70Z" fill="#1e6647"/><path d="M-28 80 L28 47 L84 80Z" fill="#2f7a55"/><rect x="22" y="77" width="12" height="19" rx="3" fill="#75452b"/>
+    <g filter="url(#glow)" stroke="#f8d27b" stroke-width="3" fill="#d34b5f"><circle cx="6" cy="67" r="6"/><circle cx="49" cy="62" r="6"/></g>
+    <circle cx="28" cy="11" r="4" fill="#f8d27b"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="54" y="89" fill="#f8fafc" font-size="34" font-weight="750" letter-spacing="-.03em">Snowstorm</text>
+    <text x="57" y="119" fill="#f8e7b0" font-size="15" font-weight="650" letter-spacing=".08em">HOLIDAY EDITION · BUILD · SHIP · GROW</text>
+    <text x="57" y="148" fill="#d8e7de" font-size="13">A little winter glow for the projects behind the commits.</text>
+  </g>
+</svg>

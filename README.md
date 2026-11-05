@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./assets/christmas-banner.svg" alt="Snowstorm holiday edition" width="100%">
+</p>
+
+<p align="center"><sub>🎄 Seasonal profile theme · calm winter colors, warm lights and real project activity</sub></p>
+
 # Hi, I'm Snowstorm 👋
 
 <p>
@@ -77,7 +83,7 @@ courses, schedules, events, messaging and an AI study assistant into one place.
   or open the <a href="https://snowstormme.github.io/Snowstormme/activity.html">interactive dashboard</a> for a full tooltip view.
 </p>
 
-<a href="https://snowstormme.github.io/Snowstormme/activity.html"><img src="./assets/contribution-graph.svg" alt="Contribution graph with daily commit counts" width="100%"></a>
+<a href="https://snowstormme.github.io/Snowstormme/activity.html"><img src="./assets/contribution-graph.svg" alt="Holiday contribution graph with daily commit counts" width="100%"></a>
 
 <table>
   <tr>
