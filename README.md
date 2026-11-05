@@ -2,9 +2,17 @@
   <img src="./assets/snowstorm-winter-banner.png" alt="Snowstorm winter landscape with profile introduction" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a>
-</p>
+<table>
+  <tr>
+    <td valign="middle">
+      <a href="mailto:notsnowstorm@proton.me">Email</a> ·
+      <a href="https://www.linkedin.com/in/islam-hasanli-087000313">LinkedIn</a>
+    </td>
+    <td align="right" valign="middle">
+      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a>
@@ -108,11 +116,3 @@ separate utilities.
 - Keeping Movie Fountain playful without sacrificing accessibility
 - Turning Lotus into a calmer, safer student workspace
 
-## 📬 Find me
-
-<a href="https://github.com/Snowstormme">GitHub</a> ·
-<a href="https://tennisd.onrender.com/">Tennisd</a> ·
-<a href="https://movie-fountain.pages.dev/">Movie Fountain</a> ·
-<a href="https://github.com/Snowstormme/lotus">Lotus</a>
-
-<p align="center"><sub>Built carefully, shipped incrementally, warmed by a little winter light.</sub></p>
