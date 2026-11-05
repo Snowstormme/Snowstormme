@@ -39,10 +39,7 @@
 
 ## ✨ GitHub at a glance
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="glancecard/profile-dark.svg">
-  <img src="glancecard/profile-light.svg" width="880" alt="Snowstorm's GitHub profile at a glance">
-</picture>
+<img src="glancecard/profile-christmas.svg" width="880" alt="Snowstorm's GitHub profile at a glance">
 
 ## 🧩 Project studio
 
@@ -65,10 +62,7 @@ follow players and build a personal tennis history.
 
 <details>
   <summary>Open the live Tennisd Glancecard</summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="glancecard/tennisd-dark.svg">
-    <img src="glancecard/tennisd-light.svg" width="880" alt="Tennisd repository at a glance">
-  </picture>
+  <img src="glancecard/tennisd-christmas.svg" width="880" alt="Tennisd repository at a glance">
 </details>
 
 ### 🍿 Movie Fountain — Movie Finder
@@ -91,10 +85,7 @@ with practical filters and a local watchlist.
 
 <details>
   <summary>Open the live Movie Finder Glancecard</summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="glancecard/movie-finder-dark.svg">
-    <img src="glancecard/movie-finder-light.svg" width="880" alt="Movie Finder repository at a glance">
-  </picture>
+  <img src="glancecard/movie-finder-christmas.svg" width="880" alt="Movie Finder repository at a glance">
 </details>
 
 ### 🎓 Lotus Campus
@@ -117,10 +108,7 @@ separate utilities.
 
 <details>
   <summary>Open the live Lotus Glancecard</summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="glancecard/lotus-dark.svg">
-    <img src="glancecard/lotus-light.svg" width="880" alt="Lotus repository at a glance">
-  </picture>
+  <img src="glancecard/lotus-christmas.svg" width="880" alt="Lotus repository at a glance">
 </details>
 
 ---
