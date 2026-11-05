@@ -5,20 +5,18 @@
 <table>
   <tr>
     <td valign="middle">
-      <a href="mailto:notsnowstorm@proton.me">Email</a> ·
-      <a href="https://www.linkedin.com/in/islam-hasanli-087000313">LinkedIn</a>
+      <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a>
+      <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+      <br>
+      <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a>
+      <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=111827" alt="Movie Finder 0.2.0"></a>
+      <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle">
       <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a>
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a>
-  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=111827" alt="Movie Finder 0.2.0"></a>
-  <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
-</p>
 
 ## ✨ GitHub at a glance
 
