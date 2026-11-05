@@ -1,0 +1,25 @@
+name: glancecard
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: gfazioli/glancecard@v0.6.1
+        with:
+          profile: Snowstormme
+          repos: |
+            Snowstormme/tennisd
+            Snowstormme/movie-finder
+            Snowstormme/lotus
+          theme: both, christmas
+          time-zone: Asia/Kuwait

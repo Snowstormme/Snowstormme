@@ -11,9 +11,8 @@
       <p>🎄 <strong>Winter build season</strong><br><sub>Three products, one small studio, and a contribution graph that tells the real story.</sub></p>
     </td>
     <td width="38%" align="center">
-      <strong>SNOWSTORM STUDIO</strong><br><br>
-      🎾 &nbsp;🍿 &nbsp;🎓<br><br>
-      <sub>Build · ship · learn<br>one release at a time</sub>
+      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a><br>
+      <sub>SNOWSTORM STUDIO · build · ship · learn</sub>
     </td>
   </tr>
 </table>
@@ -38,6 +37,13 @@
   </tr>
 </table>
 
+## ✨ GitHub at a glance
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="glancecard/profile-dark.svg">
+  <img src="glancecard/profile-light.svg" width="880" alt="Snowstorm's GitHub profile at a glance">
+</picture>
+
 ## 🧩 Project studio
 
 ### 🎾 Tennisd
@@ -52,6 +58,19 @@ follow players and build a personal tennis history.
 
 <p><a href="https://tennisd.onrender.com/">Open Tennisd</a> · <a href="https://github.com/Snowstormme/tennisd">Read the source</a></p>
 
+<p>
+  <a href="https://tennisd.onrender.com/"><img src="https://img.shields.io/badge/OPEN%20SITE-2f7a55?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Tennisd site"></a>
+  <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Tennisd repository"></a>
+</p>
+
+<details>
+  <summary>Open the live Tennisd Glancecard</summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="glancecard/tennisd-dark.svg">
+    <img src="glancecard/tennisd-light.svg" width="880" alt="Tennisd repository at a glance">
+  </picture>
+</details>
+
 ### 🍿 Movie Fountain — Movie Finder
 
 An expressive movie-discovery interface that helps people find something to
@@ -64,6 +83,19 @@ with practical filters and a local watchlist.
 </table>
 
 <p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-finder">Read the source</a></p>
+
+<p>
+  <a href="https://movie-fountain.pages.dev/"><img src="https://img.shields.io/badge/OPEN%20SITE-c28b2c?style=for-the-badge&logo=googlechrome&logoColor=111827" alt="Open Movie Fountain site"></a>
+  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Movie Finder repository"></a>
+</p>
+
+<details>
+  <summary>Open the live Movie Finder Glancecard</summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="glancecard/movie-finder-dark.svg">
+    <img src="glancecard/movie-finder-light.svg" width="880" alt="Movie Finder repository at a glance">
+  </picture>
+</details>
 
 ### 🎓 Lotus Campus
 
@@ -78,6 +110,18 @@ separate utilities.
 </table>
 
 <p><a href="https://github.com/Snowstormme/lotus">Read the Lotus source</a></p>
+
+<p>
+  <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/VIEW%20LOTUS%20REPOSITORY-d34b5f?style=for-the-badge&logo=github&logoColor=white" alt="View Lotus repository"></a>
+</p>
+
+<details>
+  <summary>Open the live Lotus Glancecard</summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="glancecard/lotus-dark.svg">
+    <img src="glancecard/lotus-light.svg" width="880" alt="Lotus repository at a glance">
+  </picture>
+</details>
 
 ---
 
