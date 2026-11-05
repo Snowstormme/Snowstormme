@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/christmas-banner.svg" alt="Snowstorm holiday edition" width="100%">
+  <img src="./assets/snowstorm-winter-banner.png" alt="Snowstorm winter landscape" width="100%">
 </p>
 
 <p align="center">
