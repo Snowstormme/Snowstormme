@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td valign="top" width="45%">
+    <td valign="top" width="40%">
       <img src="./assets/snowstorm-winter-square.png" alt="Snowstorm winter landscape" width="100%">
       <br>
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a>
@@ -10,8 +10,8 @@
       <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=111827" alt="Movie Finder 0.2.0"></a>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
-    <td align="right" valign="middle" width="55%">
-      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="659" height="726"></a>
+    <td align="right" valign="middle" width="60%">
+      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="100%"></a>
     </td>
   </tr>
 </table>
