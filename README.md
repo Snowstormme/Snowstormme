@@ -2,115 +2,117 @@
   <img src="./assets/christmas-banner.svg" alt="Snowstorm holiday edition" width="100%">
 </p>
 
-<p align="center"><sub>🎄 Seasonal profile theme · calm winter colors, warm lights and real project activity</sub></p>
+<table>
+  <tr>
+    <td width="62%">
+      <h1>Hi, I'm Snowstorm 👋</h1>
+      <p><strong>Computer Engineering student · Product builder · Data-minded developer</strong></p>
+      <p>I turn messy data and ambitious ideas into useful, reliable software.</p>
+      <p>🎄 <strong>Winter build season</strong><br><sub>Three products, one small studio, and a contribution graph that tells the real story.</sub></p>
+    </td>
+    <td width="38%" align="center">
+      <strong>SNOWSTORM STUDIO</strong><br><br>
+      🎾 &nbsp;🍿 &nbsp;🎓<br><br>
+      <sub>Build · ship · learn<br>one release at a time</sub>
+    </td>
+  </tr>
+</table>
 
-# Hi, I'm Snowstorm 👋
-
-<p>
-  <strong>Computer Engineering student · Product builder · Data-minded developer</strong><br>
-  I turn messy data and ambitious ideas into useful, reliable software.
+<p align="center">
+  <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a>
+  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=111827" alt="Movie Finder 0.2.0"></a>
+  <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
 </p>
 
-<p>
-  <a href="https://tennisd.onrender.com/"><img src="https://img.shields.io/badge/Live-Tennisd-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Tennisd"></a>
-  <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Code-Tennisd-111827?style=for-the-badge&logo=github&logoColor=white" alt="Tennisd source code"></a>
-</p>
+<p align="center"><sub>Seasonal profile theme · real project activity · no third-party stats dependency</sub></p>
 
-## 🎾 Featured project
+---
 
-### Tennisd — a tennis match diary
+## 🎄 Winter release board
+
+<table>
+  <tr>
+    <td width="33%"><strong>🎾 Tennisd</strong><br><sub>Match diary and tennis discovery</sub><br><br><strong>v0.18.2</strong><br><sub>Flask · PostgreSQL · Render</sub></td>
+    <td width="33%"><strong>🍿 Movie Fountain</strong><br><sub>Movie discovery without endless scrolling</sub><br><br><strong>v0.2.0</strong><br><sub>Cloudflare Pages · TMDB · JavaScript</sub></td>
+    <td width="33%"><strong>🎓 Lotus Campus</strong><br><sub>A calm workspace for university life</sub><br><br><strong>v0.2.0</strong><br><sub>Supabase · Postgres · Cloudflare</sub></td>
+  </tr>
+</table>
+
+## 🧩 Project studio
+
+### 🎾 Tennisd
 
 Discover ATP/WTA matches, record what you watched, rate matches, write reviews,
 follow players and build a personal tennis history.
 
 <table>
-  <tr>
-    <td><strong>Product</strong><br>Public match discovery, diary, reviews, watchlists and profiles</td>
-    <td><strong>Engineering</strong><br>Flask · PostgreSQL · SQLAlchemy · GitHub Actions</td>
-  </tr>
-  <tr>
-    <td><strong>Reliability</strong><br>177 automated tests and PostgreSQL smoke checks</td>
-    <td><strong>Operations</strong><br>Render deployment, encrypted backups and restore verification</td>
-  </tr>
+  <tr><td><strong>Product</strong><br>Match discovery, diary, reviews, watchlists and profiles</td><td><strong>Engineering</strong><br>Flask · PostgreSQL · SQLAlchemy · GitHub Actions</td></tr>
+  <tr><td><strong>Reliability</strong><br>177 automated tests and PostgreSQL smoke checks</td><td><strong>Operations</strong><br>Render deployment, encrypted backups and restore verification</td></tr>
 </table>
 
-## 🍿 Movie Fountain — Movie Finder
+<p><a href="https://tennisd.onrender.com/">Open Tennisd</a> · <a href="https://github.com/Snowstormme/tennisd">Read the source</a></p>
+
+### 🍿 Movie Fountain — Movie Finder
 
 An expressive movie-discovery interface that helps people find something to
 watch without endless scrolling.
 
-<p>
-  <a href="https://movie-fountain.pages.dev/"><img src="https://img.shields.io/badge/Live-Movie%20Fountain-c9a6d0?style=for-the-badge&logo=googlechrome&logoColor=111827" alt="Live Movie Fountain"></a>
-  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Code-Movie%20Finder-111827?style=for-the-badge&logo=github&logoColor=white" alt="Movie Finder source code"></a>
-</p>
-
 <table>
-  <tr>
-    <td><strong>Product</strong><br>Animated movie discovery, genres, moods, search, cast and recommendations</td>
-    <td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB API · JavaScript</td>
-  </tr>
-  <tr>
-    <td><strong>Personalisation</strong><br>Local watchlist, watched marks and JSON import/export</td>
-    <td><strong>Safety</strong><br>API credentials stay server-side and reduced-motion support is built in</td>
-  </tr>
+  <tr><td><strong>Product</strong><br>Animated discovery, genres, moods, search, cast and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB API · JavaScript</td></tr>
+  <tr><td><strong>Personalisation</strong><br>Local watchlist, watched marks and JSON import/export</td><td><strong>Safety</strong><br>API credentials stay server-side and reduced-motion support is built in</td></tr>
 </table>
 
-## 🎓 Lotus Campus
+<p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-finder">Read the source</a></p>
+
+### 🎓 Lotus Campus
 
 A calm campus platform for university students in Azerbaijan, bringing groups,
 courses, schedules, events, messaging and an AI study assistant into one place.
 
-<p>
-  <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Code-Lotus%20Campus-111827?style=for-the-badge&logo=github&logoColor=white" alt="Lotus source code"></a>
-</p>
-
 <table>
-  <tr>
-    <td><strong>Product</strong><br>University feed, groups, courses, schedules, events, deadlines and messaging</td>
-    <td><strong>Engineering</strong><br>HTML · CSS · JavaScript · Cloudflare Pages Functions</td>
-  </tr>
-  <tr>
-    <td><strong>Platform</strong><br>Supabase Auth, Postgres, Row Level Security and Storage</td>
-    <td><strong>Experience</strong><br>Onboarding, profiles, privacy settings and AI study assistance</td>
-  </tr>
+  <tr><td><strong>Product</strong><br>University feed, groups, courses, schedules, events and messaging</td><td><strong>Engineering</strong><br>HTML · CSS · JavaScript · Cloudflare Pages Functions</td></tr>
+  <tr><td><strong>Platform</strong><br>Supabase Auth, Postgres, Row Level Security and Storage</td><td><strong>Experience</strong><br>Onboarding, profiles, privacy settings and AI study assistance</td></tr>
 </table>
+
+<p><a href="https://github.com/Snowstormme/lotus">Read the Lotus source</a></p>
+
+---
 
 ## 📊 Contribution cockpit
 
-<p>
-  Real daily commit activity from <strong>Tennisd</strong>, <strong>Movie Finder</strong>
-  and <strong>Lotus</strong>. Hover cells in the SVG for the date and project split,
-  or open the <a href="https://snowstormme.github.io/Snowstormme/activity.html">interactive dashboard</a> for a full tooltip view.
-</p>
+Real daily commit activity from all three projects. The graph is generated from
+repository history, refreshed by GitHub Actions and rendered in the same winter
+visual system as the rest of this page.
 
 <a href="https://snowstormme.github.io/Snowstormme/activity.html"><img src="./assets/contribution-graph.svg" alt="Holiday contribution graph with daily commit counts" width="100%"></a>
 
+<p align="center"><a href="https://snowstormme.github.io/Snowstormme/activity.html">Open the interactive dashboard →</a></p>
+
 <table>
-  <tr>
-    <td><strong>Build</strong><br>Daily commits across three projects</td>
-    <td><strong>Versions</strong><br>Current versions read from each repository</td>
-    <td><strong>Explore</strong><br>Open the interactive dashboard for tooltips</td>
-  </tr>
+  <tr><td><strong>Build</strong><br>Daily commits across three projects</td><td><strong>Versions</strong><br>Read from each repository</td><td><strong>Explore</strong><br>Hover any day for the project split</td></tr>
 </table>
 
-## 🧭 What I care about
+## 🧭 Working principles
 
-- Making data-heavy products understandable
-- Secure defaults and privacy-aware user flows
-- Tests that protect real behaviour, not just line coverage
-- Small releases that can be verified and rolled back
-- Honest product documentation and transparent limitations
+| Signal | How it shows up in the work |
+| --- | --- |
+| 🧱 Product thinking | Features are shaped around a clear user job |
+| 🔐 Secure defaults | Secrets stay server-side; private data stays scoped |
+| 🧪 Real tests | Critical user flows and database behaviour are exercised |
+| 🚀 Small releases | Changes are easy to verify, deploy and roll back |
+| 📝 Honest docs | Limitations and data freshness are documented clearly |
 
 ## 🛠️ Tools I use
 
 `Python` `Flask` `PostgreSQL` `SQLAlchemy` `JavaScript` `HTML/CSS`
-`GitHub Actions` `Render` `Neon`
+`GitHub Actions` `Render` `Cloudflare Pages` `Supabase` `Neon`
 
 ## 🚧 Current focus
 
 - Improving Tennisd's search and tournament discovery
-- Making imported tennis data more reliable and explainable
-- Building safer account, notification and recovery flows
+- Making imported data more reliable and explainable
+- Keeping Movie Fountain playful without sacrificing accessibility
+- Turning Lotus into a calmer, safer student workspace
 
 ## 📬 Find me
 
@@ -119,4 +121,4 @@ courses, schedules, events, messaging and an AI study assistant into one place.
 <a href="https://movie-fountain.pages.dev/">Movie Fountain</a> ·
 <a href="https://github.com/Snowstormme/lotus">Lotus</a>
 
-<sub>Built carefully, shipped incrementally.</sub>
+<p align="center"><sub>Built carefully, shipped incrementally, warmed by a little winter light.</sub></p>
