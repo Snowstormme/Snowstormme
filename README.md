@@ -10,8 +10,8 @@
       <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=111827" alt="Movie Finder 0.2.0"></a>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
-    <td align="right" valign="middle">
-      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="320"></a>
+    <td align="right" valign="middle" width="50%">
+      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="100%"></a>
     </td>
   </tr>
 </table>
