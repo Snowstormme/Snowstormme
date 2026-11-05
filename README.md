@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="./assets/snowstorm-winter-banner.png" alt="Snowstorm winter landscape with profile introduction" width="100%">
-</p>
-
 <table>
   <tr>
-    <td valign="middle">
+    <td valign="top" width="50%">
+      <img src="./assets/snowstorm-winter-square.png" alt="Snowstorm winter landscape" width="100%">
+      <br>
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a>
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <br>
