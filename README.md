@@ -13,7 +13,7 @@
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle">
-      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="220"></a>
+      <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="320"></a>
     </td>
   </tr>
 </table>
