@@ -6,10 +6,12 @@
       <stop stop-color="#071a18"/><stop offset=".55" stop-color="#123b32"/><stop offset="1" stop-color="#3b1e2a"/>
     </linearGradient>
     <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#edf7f1"/><stop offset="1" stop-color="#b7d1c4"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".18"/><stop offset="1" stop-color="#ffffff" stop-opacity=".04"/></linearGradient>
     <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1200" height="210" rx="24" fill="url(#sky)"/>
   <circle cx="1010" cy="48" r="28" fill="#f8e7b0" opacity=".85"/>
+  <circle cx="1010" cy="48" r="44" fill="none" stroke="#f8e7b0" stroke-opacity=".18"/>
   <path d="M0 173 C180 132 285 198 445 157 C625 110 758 176 920 140 C1060 110 1120 142 1200 121 V210 H0Z" fill="url(#hill)" opacity=".92"/>
   <g fill="#e8f5ee" opacity=".9" font-family="sans-serif" font-size="18">
     <text x="74" y="45">✦</text><text x="173" y="96">✧</text><text x="304" y="42">·</text><text x="420" y="83">✦</text><text x="590" y="37">·</text><text x="710" y="85">✧</text><text x="845" y="38">✦</text><text x="1110" y="94">·</text>
@@ -19,10 +21,11 @@
     <g filter="url(#glow)" stroke="#f8d27b" stroke-width="3" fill="#d34b5f"><circle cx="6" cy="67" r="6"/><circle cx="49" cy="62" r="6"/></g>
     <circle cx="28" cy="11" r="4" fill="#f8d27b"/>
   </g>
-  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
-    <text x="54" y="72" fill="#f8fafc" font-size="31" font-weight="750" letter-spacing="-.03em">Hi, I'm Snowstorm 👋</text>
-    <text x="57" y="103" fill="#f8e7b0" font-size="14" font-weight="650">Computer Engineering student · Product builder · Data-minded developer</text>
-    <text x="57" y="132" fill="#d8e7de" font-size="12">I'm interested in programming, software development and data analysis.</text>
-    <text x="57" y="153" fill="#d8e7de" font-size="12">I turn messy data and ambitious ideas into useful, reliable software.</text>
+  <g transform="translate(58 50)">
+    <rect width="410" height="104" rx="18" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".16"/>
+    <circle cx="28" cy="28" r="7" fill="#f8d27b" filter="url(#glow)"/>
+    <text x="48" y="36" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="760" letter-spacing="-.03em">SNOWSTORM</text>
+    <text x="28" y="70" fill="#f8e7b0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="700" letter-spacing=".16em">PRODUCTS · DATA · SOFTWARE</text>
+    <path d="M28 84 H176" stroke="#d8e7de" stroke-opacity=".6"/>
   </g>
 </svg>
