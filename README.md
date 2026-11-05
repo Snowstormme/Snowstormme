@@ -104,10 +104,3 @@ separate utilities.
 `Python` `Flask` `PostgreSQL` `SQLAlchemy` `JavaScript` `HTML/CSS`
 `GitHub Actions` `Render` `Cloudflare Pages` `Supabase` `Neon`
 
-## 🚧 Current focus
-
-- Improving Tennisd's search and tournament discovery
-- Making imported data more reliable and explainable
-- Keeping Movie Fountain playful without sacrificing accessibility
-- Turning Lotus into a calmer, safer student workspace
-
