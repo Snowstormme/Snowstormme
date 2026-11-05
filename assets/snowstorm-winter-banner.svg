@@ -15,6 +15,5 @@
     <text x="54" y="108" fill="#f8e7b0" font-size="13" font-weight="650">Computer Engineering student</text>
     <text x="54" y="133" fill="#d8e7de" font-size="12">Product builder · Data-minded developer</text>
     <text x="54" y="171" fill="#d8e7de" font-size="12">I build useful software from ambitious ideas.</text>
-    <path d="M54 190 H205" stroke="#f8e7b0" stroke-opacity=".72"/>
   </g>
 </svg>
