@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Snowstorm winter profile banner</title>
+  <desc id="desc">A compact winter mountain landscape with a short introduction to Snowstorm.</desc>
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#071a2d" stop-opacity=".94"/>
+      <stop offset=".58" stop-color="#071a2d" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#071a2d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <image href="snowstorm-winter-banner.png" x="0" y="0" width="1200" height="250" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1200" height="250" fill="url(#shade)"/>
+  <g fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="52" y="78" font-size="30" font-weight="760" letter-spacing="-.03em">Snowstorm</text>
+    <text x="54" y="108" fill="#f8e7b0" font-size="13" font-weight="650">Computer Engineering student</text>
+    <text x="54" y="133" fill="#d8e7de" font-size="12">Product builder · Data-minded developer</text>
+    <text x="54" y="171" fill="#d8e7de" font-size="12">I build useful software from ambitious ideas.</text>
+    <path d="M54 190 H205" stroke="#f8e7b0" stroke-opacity=".72"/>
+  </g>
+</svg>
