@@ -27,16 +27,6 @@
 
 ---
 
-## 🎄 Winter release board
-
-<table>
-  <tr>
-    <td width="33%"><strong>🎾 Tennisd</strong><br><sub>Match diary and tennis discovery</sub><br><br><strong>v0.18.2</strong><br><sub>Flask · PostgreSQL · Render</sub></td>
-    <td width="33%"><strong>🍿 Movie Fountain</strong><br><sub>Movie discovery without endless scrolling</sub><br><br><strong>v0.2.0</strong><br><sub>Cloudflare Pages · TMDB · JavaScript</sub></td>
-    <td width="33%"><strong>🎓 Lotus Campus</strong><br><sub>A calm workspace for university life</sub><br><br><strong>v0.2.0</strong><br><sub>Supabase · Postgres · Cloudflare</sub></td>
-  </tr>
-</table>
-
 ## ✨ GitHub at a glance
 
 <img src="glancecard/profile-christmas.svg" width="880" alt="Snowstorm's GitHub profile at a glance">
@@ -110,22 +100,6 @@ separate utilities.
   <summary>Open the live Lotus Glancecard</summary>
   <img src="glancecard/lotus-christmas.svg" width="880" alt="Lotus repository at a glance">
 </details>
-
----
-
-## 📊 Contribution cockpit
-
-Real daily commit activity from all three projects. The graph is generated from
-repository history, refreshed by GitHub Actions and rendered in the same winter
-visual system as the rest of this page.
-
-<a href="https://snowstormme.github.io/Snowstormme/activity.html"><img src="./assets/contribution-graph.svg" alt="Holiday contribution graph with daily commit counts" width="100%"></a>
-
-<p align="center"><a href="https://snowstormme.github.io/Snowstormme/activity.html">Open the interactive dashboard →</a></p>
-
-<table>
-  <tr><td><strong>Build</strong><br>Daily commits across three projects</td><td><strong>Versions</strong><br>Read from each repository</td><td><strong>Explore</strong><br>Hover any day for the project split</td></tr>
-</table>
 
 ## 🧭 Working principles
 
