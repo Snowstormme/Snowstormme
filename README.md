@@ -6,7 +6,7 @@
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a><br>
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
       <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a><br>
-      <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/Movie%20Finder-0.2.0-c28b2c?style=flat-square&logo=github&logoColor=white" alt="Movie Finder 0.2.0"></a><br>
+      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.4.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.4.0"></a><br>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle" width="60%">
@@ -43,27 +43,28 @@ follow players and build a personal tennis history.
   <img src="glancecard/tennisd-christmas.svg" width="880" alt="Tennisd repository at a glance">
 </details>
 
-### 🍿 Movie Fountain — Movie Finder
+### 🍿 Movie Fountain
 
 An expressive movie-discovery interface that helps people find something to
-watch without endless scrolling. The moving Fountain combines TMDB discovery
-with practical filters and a local watchlist.
+watch without endless scrolling. The moving Fountain combines TMDB discovery,
+a curated Letterboxd Top 500 collection, multi-source ratings, director and
+actor filmographies, and a local watchlist.
 
 <table>
-  <tr><td><strong>Product</strong><br>Animated discovery, genre/mood filters, year and length controls, search, cast and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB API · JavaScript</td></tr>
-  <tr><td><strong>Personalisation</strong><br>Local watchlist, watched marks, JSON import/export and shareable movie links</td><td><strong>Safety</strong><br>API credentials stay server-side; pause controls and reduced-motion support are built in</td></tr>
+  <tr><td><strong>Product</strong><br>Animated Fountain discovery, rotating Letterboxd Top 500 shelf &amp; filter, genre/mood/year/length controls, director &amp; actor search with full filmographies, and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB &amp; external rating APIs · JavaScript · GitHub Actions CI</td></tr>
+  <tr><td><strong>Personalisation &amp; Ratings</strong><br>Multi-source scores (TMDB, IMDb, Letterboxd, Rotten Tomatoes), Classic &amp; Liquid Glass themes, local watchlist, watched marks, JSON import/export and shareable links</td><td><strong>Safety</strong><br>API credentials stay server-side with strict CSP headers; pause controls and reduced-motion support are built in</td></tr>
 </table>
 
-<p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-finder">Read the source</a></p>
+<p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-fountain">Read the source</a></p>
 
 <p>
-  <a href="https://movie-fountain.pages.dev/"><img src="https://img.shields.io/badge/OPEN%20SITE-c28b2c?style=for-the-badge&logo=googlechrome&logoColor=111827" alt="Open Movie Fountain site"></a>
-  <a href="https://github.com/Snowstormme/movie-finder"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Movie Finder repository"></a>
+  <a href="https://movie-fountain.pages.dev/"><img src="https://img.shields.io/badge/OPEN%20SITE-ff5a1f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Movie Fountain site"></a>
+  <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Movie Fountain repository"></a>
 </p>
 
 <details>
-  <summary>Open the live Movie Finder Glancecard</summary>
-  <img src="glancecard/movie-finder-christmas.svg" width="880" alt="Movie Finder repository at a glance">
+  <summary>Open the live Movie Fountain Glancecard</summary>
+  <img src="glancecard/movie-fountain-christmas.svg" width="880" alt="Movie Fountain repository at a glance">
 </details>
 
 ### 🎓 Lotus Campus

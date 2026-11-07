@@ -19,7 +19,7 @@ jobs:
           profile: Snowstormme
           repos: |
             Snowstormme/tennisd
-            Snowstormme/movie-finder
+            Snowstormme/movie-fountain
             Snowstormme/lotus
           theme: both, christmas
           time-zone: Asia/Kuwait
