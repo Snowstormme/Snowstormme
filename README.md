@@ -6,7 +6,7 @@
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a><br>
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
       <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a><br>
-      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.4.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.4.0"></a><br>
+      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.5.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.5.0"></a><br>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle" width="60%">
@@ -51,8 +51,8 @@ a curated Letterboxd Top 500 collection, multi-source ratings, director and
 actor filmographies, and a local watchlist.
 
 <table>
-  <tr><td><strong>Product</strong><br>Animated Fountain discovery, rotating Letterboxd Top 500 shelf &amp; filter, genre/mood/year/length controls, director &amp; actor search with full filmographies, and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB &amp; external rating APIs · JavaScript · GitHub Actions CI</td></tr>
-  <tr><td><strong>Personalisation &amp; Ratings</strong><br>Multi-source scores (TMDB, IMDb, Letterboxd, Rotten Tomatoes), Classic &amp; Liquid Glass themes, local watchlist, watched marks, JSON import/export and shareable links</td><td><strong>Safety</strong><br>API credentials stay server-side with strict CSP headers; pause controls and reduced-motion support are built in</td></tr>
+  <tr><td><strong>Product</strong><br>Animated Fountain discovery, dedicated Trending &amp; Upcoming charts, rotating Letterboxd Top 500, YouTube trailers, director &amp; actor search with full filmographies, and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB &amp; external rating APIs · JavaScript · GitHub Actions CI</td></tr>
+  <tr><td><strong>Personalisation &amp; Ratings</strong><br>Composite Fountain Score (0–100), multi-source ratings (TMDB, IMDb, Letterboxd, Rotten Tomatoes), Cinephile Passport with ranks &amp; stats, JSON import/export and shareable links</td><td><strong>Safety</strong><br>API credentials stay server-side with strict CSP headers; pause controls and reduced-motion support are built in</td></tr>
 </table>
 
 <p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-fountain">Read the source</a></p>
