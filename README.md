@@ -47,6 +47,7 @@ follow players and build a personal tennis history.
 
 An expressive movie-discovery interface that helps people find something to
 watch without endless scrolling. The moving Fountain combines TMDB discovery,
+Streaming Services Hub (dedicated Netflix movies & series catalog),
 Where to Watch streaming availability (JustWatch), curated Editor's Choice (34 masterpieces),
 IMDb Top 250 & Letterboxd Top 500 collections with real-time in-list
 sorting, multi-source ratings, official vector platform logos, director & actor
