@@ -6,7 +6,7 @@
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a><br>
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
       <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a><br>
-      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.6.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.6.0"></a><br>
+      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.7.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.7.0"></a><br>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle" width="60%">
@@ -47,13 +47,14 @@ follow players and build a personal tennis history.
 
 An expressive movie-discovery interface that helps people find something to
 watch without endless scrolling. The moving Fountain combines TMDB discovery,
-curated IMDb Top 250 & Letterboxd Top 500 collections with real-time in-list
+Where to Watch streaming availability (JustWatch), curated Editor's Choice (34 masterpieces),
+IMDb Top 250 & Letterboxd Top 500 collections with real-time in-list
 sorting, multi-source ratings, official vector platform logos, director & actor
 filmographies, custom profile avatars, and dual themes (Flame Orange & Midnight Sapphire).
 
 <table>
-  <tr><td><strong>Product</strong><br>Animated Fountain discovery, dedicated Trending, Upcoming, IMDb Top 250 &amp; Letterboxd Top 500 charts with real-time sorting, YouTube trailers, director &amp; actor search with full filmographies, and recommendations</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB &amp; external rating APIs · Vanilla JavaScript · GitHub Actions CI</td></tr>
-  <tr><td><strong>Personalisation &amp; Ratings</strong><br>Composite Fountain Score (0–100), multi-source ratings with official IMDb &amp; Letterboxd vector logos, Cinephile Passport with ranks &amp; stats, local profile avatars with Canvas compression, JSON import/export, and Classic / Midnight Sapphire Liquid Glass themes</td><td><strong>Safety</strong><br>API credentials stay server-side with strict CSP headers; pause controls, reduced-motion support, and private local-only storage</td></tr>
+  <tr><td><strong>Product</strong><br>Animated Fountain discovery, Where to Watch streaming providers with regional flag switchers, curated Editor's Choice (34 films), dedicated Trending, Upcoming, IMDb Top 250 &amp; Letterboxd Top 500 charts with real-time sorting, YouTube trailers, and full filmographies</td><td><strong>Engineering</strong><br>Cloudflare Pages · Pages Functions · TMDB &amp; JustWatch streaming data · External rating APIs · Vanilla JavaScript · GitHub Actions CI</td></tr>
+  <tr><td><strong>Personalisation &amp; Ratings</strong><br>Composite Fountain Score with golden Masterpiece consensus verdict (90+), multi-source ratings with official IMDb &amp; Letterboxd vector logos, Cinephile Passport with ranks &amp; stats, local profile avatars with Canvas compression, JSON import/export, and Classic / Midnight Sapphire Liquid Glass themes</td><td><strong>Safety</strong><br>API credentials stay server-side with strict CSP headers; pause controls, reduced-motion support, and private local-only storage</td></tr>
 </table>
 
 <p><a href="https://movie-fountain.pages.dev/">Open Movie Fountain</a> · <a href="https://github.com/Snowstormme/movie-fountain">Read the source</a></p>
