@@ -7,8 +7,7 @@
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
       <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a><br>
       <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.8.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.8.0"></a><br>
-      <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a><br>
-      <a href="https://github.com/Snowstormme/sheher3d"><img src="https://img.shields.io/badge/Şəhər%203D-TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="Şəhər 3D"></a>
+      <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle" width="60%">
       <a href="https://github.com/chromeheartz/merry-gitmas"><img src="./profile-tree.svg" alt="Merry Gitmas contribution tree" width="100%"></a>
@@ -94,23 +93,6 @@ separate utilities.
   <img src="glancecard/lotus-christmas.svg" width="880" alt="Lotus repository at a glance">
 </details>
 
-### 🏛️ Şəhər 3D · Baku White City Digital Twin
-
-An interactive 3D digital twin and architectural explorer for Baku White City (Ağ Şəhər)
-luxury residences, featuring real-time Day/Night environmental lighting shifts,
-pinned unit inspection, and whole-city masterplan scaling.
-
-<table>
-  <tr><td><strong>Product</strong><br>Real-time Day/Night lighting shift, pinned 3D unit badges, specifications drawer and masterplan explorer</td><td><strong>Engineering</strong><br>Next.js 16 · React · TypeScript · Tailwind CSS</td></tr>
-  <tr><td><strong>Architecture</strong><br>Baku White City (Park Residence, Fountain Square & Knightsbridge)</td><td><strong>Experience</strong><br>Bilingual AZ/EN localization, responsive mobile-first elevation and private tour scheduling</td></tr>
-</table>
-
-<p><a href="https://github.com/Snowstormme/sheher3d">Read the Şəhər 3D source</a></p>
-
-<p>
-  <a href="https://github.com/Snowstormme/sheher3d"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Şəhər 3D repository"></a>
-</p>
-
 ## 🧭 Working principles
 
 | Signal | How it shows up in the work |
@@ -123,6 +105,6 @@ pinned unit inspection, and whole-city masterplan scaling.
 
 ## 🛠️ Tools I use
 
-`TypeScript` `Next.js` `Python` `Flask` `PostgreSQL` `SQLAlchemy` `JavaScript` `HTML/CSS`
-`GitHub Actions` `Render` `Cloudflare Pages` `Supabase` `Neon` `Tailwind CSS`
+`Python` `Flask` `PostgreSQL` `SQLAlchemy` `JavaScript` `HTML/CSS`
+`GitHub Actions` `Render` `Cloudflare Pages` `Supabase` `Neon`
 
