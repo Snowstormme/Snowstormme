@@ -6,7 +6,7 @@
       <a href="mailto:notsnowstorm@proton.me"><img src="https://img.shields.io/badge/Email-Contact-334155?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a><br>
       <a href="https://www.linkedin.com/in/islam-hasanli-087000313"><img src="https://img.shields.io/badge/LinkedIn-Islam%20Hasanli-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a><br>
       <a href="https://github.com/Snowstormme/tennisd"><img src="https://img.shields.io/badge/Tennisd-0.18.2-2f7a55?style=flat-square&logo=github&logoColor=white" alt="Tennisd 0.18.2"></a><br>
-      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.8.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.8.0"></a><br>
+      <a href="https://github.com/Snowstormme/movie-fountain"><img src="https://img.shields.io/badge/Movie%20Fountain-0.9.0-ff5a1f?style=flat-square&logo=github&logoColor=white" alt="Movie Fountain 0.9.0"></a><br>
       <a href="https://github.com/Snowstormme/lotus"><img src="https://img.shields.io/badge/Lotus-0.2.0-d34b5f?style=flat-square&logo=github&logoColor=white" alt="Lotus 0.2.0"></a>
     </td>
     <td align="right" valign="middle" width="60%">
